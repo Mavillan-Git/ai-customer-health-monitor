@@ -1,0 +1,49 @@
+customer_id,name,days_since_last_activity,open_tickets,total_tickets,total_revenue,opportunities_won,opportunities_lost,email_engagement
+CUST001,Acme Corporation,3,1,5,125000,8,1,high
+CUST002,TechStart Inc,45,5,15,85000,3,4,low
+CUST003,Global Solutions Ltd,7,0,2,250000,12,0,high
+CUST004,Innovation Hub,60,8,20,45000,2,5,very_low
+CUST005,DataFlow Systems,10,2,8,180000,10,2,medium
+CUST006,CloudNine Tech,2,0,1,320000,15,0,high
+CUST007,NextGen Analytics,90,12,25,30000,1,8,very_low
+CUST008,SmartBiz Solutions,15,3,10,95000,6,3,medium
+CUST009,Enterprise Dynamics,5,1,4,280000,14,1,high
+CUST010,Digital Ventures,120,15,30,15000,0,10,very_low
+CUST011,Quantum Systems,8,2,6,210000,11,1,high
+CUST012,Velocity Corp,25,4,12,72000,4,4,low
+CUST013,Apex Industries,4,0,3,195000,9,2,high
+CUST014,Fusion Technologies,75,10,22,38000,2,7,very_low
+CUST015,Synergy Partners,12,2,7,155000,8,2,medium
+CUST016,Prime Solutions,6,1,5,240000,13,1,high
+CUST017,Rapid Growth Inc,50,7,18,52000,3,6,low
+CUST018,Summit Enterprises,9,1,6,175000,9,2,medium
+CUST019,Horizon Systems,3,0,2,290000,14,0,high
+CUST020,Legacy Corp,100,13,28,25000,1,9,very_low
+```
+
+**Guarda el archivo:** Presiona `Cmd + S`
+
+---
+
+### **3.2 - Crear archivo `.env`**
+
+1. **Click derecho** de nuevo en el panel izquierdo
+2. **"New File"**
+3. Escribe el nombre: `.env` (con el punto al principio)
+4. Presiona **Enter**
+
+**Copia y pega** esto:
+```
+ANTHROPIC_API_KEY=tu-api-key-aqui
+```
+
+**✅ MUY IMPORTANTE:**
+
+Ahora ve a **Notes** (donde guardaste tu API Key de Claude):
+
+1. **Copia** tu API Key completa (la que empieza con `sk-ant-api03-...`)
+2. **Reemplaza** `tu-api-key-aqui` con tu key real
+
+Debe quedar así (ejemplo):
+```
+ANTHROPIC_API_KEY=sk-ant-api03-AbCdEfGhIjKlMnOpQrStUvWxYz1234567890...
